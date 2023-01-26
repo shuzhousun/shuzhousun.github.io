@@ -1,2 +1,2 @@
 # README
-Hompage of Jinghua Zhang
+Hompage of Shuzhou Sun
