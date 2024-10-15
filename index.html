@@ -64,7 +64,7 @@
 	  font-family: Lato, Verdana, Helvetica, sans-serif;
 	  font-size: 18pt;
 	  font-weight: 700;
-	  margin-bottom: 10px;
+	  margin-bottom: 0.3em; /* 减少标题与内容的空白 */
 	}
 
 	h3 {
@@ -104,26 +104,24 @@
 	}
 
 	div.section {
-	  clear: both;
-	  margin-bottom: 0.5em; /* 减少上下空白 */
+	  margin-bottom: 1.5em; /* 增大每部分之间的空白 */
+	}
+
+	div.paper {
+	  margin-top: 0.3em; /* 减少标题与内容的空白 */
+	  margin-bottom: 1em;
 	  background: #fff;
+	  padding: 1em;
 	}
 
 	div.spanner {
 	  clear: both;
 	}
 
-	div.paper {
-	  margin-top: 0.5em;
-	  margin-bottom: 1em;
-	  background: #fff;
-	  padding: 1em;
-	}
-
 	div.paper_pub {
 	  clear: both;
-	  margin-top: 0.2em;
-	  margin-bottom: 0.2em;
+	  margin-top: 0.5em;
+	  margin-bottom: 1em;
 	  background: #fff;
 	  padding: 0.4em;
 	}
@@ -153,6 +151,11 @@
 
 	div.paper pre {
 	  font-size: 0.9em;
+	}
+
+	div.clustrmapsection {
+	  width: 80px;
+	  margin: 0 auto;  /* 居中显示小地球 */
 	}
 	</style>
 
@@ -239,13 +242,13 @@
   <div class="section">
     <h2 id="confpapers">Academic Service</h2>
     <div class="paper">
-      <strong>Reviewer</strong>: <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, <i>IEEE Transactions on Multimedia (TMM)</i>, <i>IEEE Transactions on Geoscience and Remote Sensing (TGRS)</i>, <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</i>, <i>International Conference on Multimedia and Expo (ICME)</i>.
+      <strong>Reviewer</strong>: <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</i>, <i>International Conference on Multimedia and Expo (ICME)</i>, <i>Pattern Recognition (PR)</i>, <i>Pattern Recognition Letters (PRL)</i>.
     </div>
   </div>
 </div>
 
 <!-- 访问记录 Clustrmap -->
-<div style="clear: both; width: 80px; margin-left: 280px;">
+<div style="clear: both;">
   <div class="clustrmapsection">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=J_2SXKtM8AUlAzlywaPt4iLYfgpLN7t9lQ_zePGrUpk"></script>
   </div>
